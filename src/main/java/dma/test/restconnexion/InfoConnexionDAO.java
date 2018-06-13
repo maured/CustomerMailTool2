@@ -16,6 +16,7 @@ public class InfoConnexionDAO{
 	
 	public InfoConnexionClient add(InfoConnexionClient infoConnexionClient){
 		infos.add(infoConnexionClient);
+		System.out.println("j'ai bien add les infos dans mon bean");
 		return infoConnexionClient;
 	}
 }
