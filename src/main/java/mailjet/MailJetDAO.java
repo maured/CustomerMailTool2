@@ -16,7 +16,8 @@ import org.json.JSONObject;
 import static data.treatment.TreatmentJsonData.allTreatmentFromMailjetResponse;
 
 public class MailJetDAO{
-	//tant que nous avons une instance de mailJet DAO (que la JVM tourne) les infos de connxion seront stockées dans mon objet connexion
+	/*tant que nous avons une instance de mailJet DAO (que la JVM tourne) les infos de connxion seront 
+	stockées dans mon objet connexion*/
 	private InfoConnexionClient connexion;
 	
 	//private String dateTime = "1970-01-02T13:00:00";
